@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.3
+langchain-community==0.2.10
+langchain-core==0.2.25
+langchain-huggingface==0.0.3
+requests==2.32.3
+chromadb==0.5.5
+huggingface-hub==0.24.5
