@@ -1,5 +1,6 @@
 import tempfile
 from langchain_core.documents import Document
+from langchain_community.vectorstore import Chroma
 
 def metadata_filtering():
     with tempfile.TemporaryDirectory() as tmpdir:
