@@ -60,5 +60,5 @@ def get_response_from_doc(path:str, query:str):
   response = with_message_history.invoke({'question':query, 'context_text': context_text}, config=config)
   return response.content
 
-print(get_response_from_doc('/content/Class_Valuation_Interview_Prep.pdf', 'How does ClassValuation work?', session_id = ))
 print(get_response_from_doc('/content/Class_Valuation_Interview_Prep.pdf', 'What was my first question?'))
+print(get_response_from_doc('/content/Class_Valuation_Interview_Prep.pdf', 'How does ClassValuation work?', session_id = ))
